@@ -12,8 +12,9 @@ import android.os.Bundle;
 
     }
 
-    void xerecao():
-     xereca = 'ae xereca'
+    void xerecao() {
+        xereca = 'ae xereca'
+    }
 }
 
 
