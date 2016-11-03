@@ -31,4 +31,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     compile "org.codehaus.groovy:groovy:2.4.7:grooid"
+    // https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
+    compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.4.0-rc1'
+    // https://mvnrepository.com/artifact/com.gmongo/gmongo
+    compile group: 'com.gmongo', name: 'gmongo', version: '1.5'
+
+
 }
