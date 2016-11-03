@@ -11,5 +11,7 @@ class Produto extends Entidade {
     List<Ingrediente> ingredientes
     Double preco
     Quantidade quanto
+    String paraQuantos
+
 
 }
