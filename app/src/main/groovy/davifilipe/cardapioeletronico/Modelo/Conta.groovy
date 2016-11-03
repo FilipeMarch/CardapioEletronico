@@ -9,22 +9,24 @@ class Conta {
 
     Double Total() {}
 
-    def Dividir(Class como) { new Divisao(como) }
+    def Dividir(String como) { new Divisao(como) }
 
 }
 
 class Divisao {
 
-  Divisao(Class tipo) {
+  Divisao(String como) {
+
+      properties[como]()
 
   }
 
-    class DeIgualPraIgual {}
+    def DeIgualPraIgual = {}
 
-    class TantoPraCada{}
+    def TantoPraCada = {}
 
-    class PorMinhaConta {}
+    def PorMinhaConta = {}
 
-    class CadaUmPorSi {}
+    def CadaUmPorSi = {}
 
 }

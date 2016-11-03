@@ -1,6 +1,5 @@
 package davifilipe.cardapioeletronico.Modelo
 
-import java.time.LocalDateTime
 
 /**
  * Created by Davi Pacheco on 20/10/2016.
